@@ -2,6 +2,8 @@
 
 > A Discord bot written in Go
 
+[Invite Hellknight](https://discord.com/api/oauth2/authorize?client_id=899902102460063785&permissions=2147552320&scope=bot%20applications.commands)
+
 ## Quick Start ✨
 
 ```shell
