@@ -1,4 +1,4 @@
-package main
+package hellknight
 
 import (
 	"os"
@@ -28,7 +28,7 @@ var (
 	}
 )
 
-func main() {
+func Exec() {
 	GuildID := os.Getenv("GUILD_ID")
 	BotToken := os.Getenv("BOT_TOKEN")
 
