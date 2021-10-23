@@ -1,7 +1,2 @@
+//go:generate go build -o bin/hellknight cmd/hellknight/main.go
 package main
-
-import "github.com/brittonhayes/hellknight/cmd/hellknight"
-
-func main() {
-	hellknight.Exec()
-}

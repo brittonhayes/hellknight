@@ -1,7 +1,7 @@
 package info
 
 import (
-	"github.com/brittonhayes/hellknight/internal/logger"
+	"github.com/brittonhayes/hellknight/logger"
 	"github.com/bwmarrin/discordgo"
 )
 
@@ -12,7 +12,7 @@ const (
 	reply = "Thanks for using Hellknight!👋 \n \nIf this project helped you, please consider starring it on github:\n ⭐ https://github.com/brittonhayes/hellknight"
 )
 
-var ApplicationCommand = &discordgo.ApplicationCommand{
+var Command = &discordgo.ApplicationCommand{
 	ID:          NAME,
 	Name:        NAME,
 	Description: DESC,
